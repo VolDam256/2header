@@ -1,0 +1,240 @@
+body {
+  position: relative;
+  background: #ffffff;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("Gilroy-FREE/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Robot/Roboto-Regular.ttf");
+}
+
+/*Хеад*/
+header {
+  position: relative;
+  margin: 0 auto;
+  width: calc(100% - 50px);
+  height: 95px;
+  z-index: 2;
+  top: 20px;
+}
+
+.conteiner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo__icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  top: 6px;
+  background-color: black;
+}
+
+.logo__text {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-top: 1px;
+
+  font: normal 800 17px/21px Gilroy;
+  text-decoration: none;
+  color: #262525;
+  border: 0;
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  left: -24px;
+}
+
+.menu__list {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu__element {
+  display: inline-block;
+  transition: color 0.2s linear;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #262525;
+  font: normal 800 12px/15px Gilroy;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.menu__line {
+  position: relative;
+  display: block;
+  left: 20px;
+  width: 100px;
+  height: 4px;
+  background-color: #d88f5e;
+  z-index: 1;
+  transition-duration: 0.8s;
+
+  transform: translateX(0px) scaleX(1);
+}
+
+.nelogo {
+  position: relative;
+  display: inline-block;
+}
+
+.callnumber {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-right: 9px;
+  color: #262525;
+  text-decoration: none;
+  font: normal 800 17px/21px Gilroy;
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+}
+
+.burger {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: 0;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  position: relative;
+  margin: 0 auto;
+  width: calc(100% - 50px);
+  height: 95px;
+  z-index: 2;
+  top: 20px;
+}
+
+.conteiner2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.logo2 {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo__icon2 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  top: 6px;
+  background-color: black;
+}
+
+.logo__text2 {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 1px;
+  vertical-align: top;
+
+  font: normal 800 17px/21px Gilroy;
+  text-decoration: none;
+  color: #262525;
+  border: 0;
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+}
+
+.menu2 {
+  display: inline-block;
+  left: -24px;
+  text-align: center;
+}
+
+.menu__list2 {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.menu__element2 {
+  display: inline-block;
+  transition: color 0.2s linear;
+  padding-right: 50px;
+}
+
+.menu__link2 {
+  text-decoration: none;
+  color: #262525;
+  font: normal 800 12px/15px Gilroy;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.menu__line2 {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #d88f5e;
+  z-index: 1;
+  transition-duration: 0.8s;
+
+  transform: translateX(0px) scaleX(1);
+}
+
+.nelogo2 {
+  display: inline-block;
+  text-align: right;
+}
+
+.callnumber2 {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 9px;
+  color: #262525;
+  text-decoration: none;
+  font: normal 800 17px/21px Gilroy;
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+
+  vertical-align: top;
+}
+
+.burger2 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: 0;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
